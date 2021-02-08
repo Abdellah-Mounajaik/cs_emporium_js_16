@@ -16096,6 +16096,16 @@ h3 {
   display: flex;
 }
 
+.caroussel {
+  display: flex;
+  padding-left: 10%;
+  overflow: hidden;
+}
+
+.imgcar {
+  max-width: 100%;
+}
+
 ul {
   display: flex;
   justify-content: space-around;
