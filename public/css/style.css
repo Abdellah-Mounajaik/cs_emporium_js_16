@@ -16070,7 +16070,7 @@ h3 {
 
 .t-img {
   position: absolute;
-  top: 45%;
+  top: 40%;
   left: 35%;
   color: white;
   font-size: 30px;
@@ -16078,6 +16078,22 @@ h3 {
 
 .s3img {
   max-width: 100%;
+}
+
+.img4 {
+  background-image: url("../img/cta-bg.jpg");
+  background-attachment: fixed;
+  height: 450px;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.t-imgs4 {
+  color: white;
+  justify-content: center;
+  display: flex;
 }
 
 ul {
