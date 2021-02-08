@@ -15840,6 +15840,10 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 30px;
 }
 
+.s3img {
+  max-width: 100%;
+}
+
 ul {
   display: flex;
   justify-content: space-around;
