@@ -16106,6 +16106,27 @@ h3 {
   max-width: 100%;
 }
 
+.fond {
+  background-color: lightgray;
+}
+
+.fond:hover {
+  background: #df3f3f;
+}
+.fond:hover i {
+  color: white;
+}
+.fond:hover p {
+  color: white;
+}
+.fond:hover p {
+  color: white;
+}
+.fond:hover button {
+  color: black;
+  background-color: white;
+}
+
 ul {
   display: flex;
   justify-content: space-around;
