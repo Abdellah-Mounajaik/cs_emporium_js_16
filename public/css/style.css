@@ -16055,7 +16055,7 @@ h3 {
 }
 
 .t1 {
-  color: red;
+  color: #df3f3f;
 }
 
 .t2 {
@@ -16074,6 +16074,7 @@ h3 {
   left: 35%;
   color: white;
   font-size: 30px;
+  border-bottom: white solid 2px;
 }
 
 .s3img {
@@ -16127,6 +16128,10 @@ h3 {
   background-color: white;
 }
 
+.dernierediv {
+  background-color: black;
+}
+
 ul {
   display: flex;
   justify-content: space-around;
@@ -16138,7 +16143,14 @@ ul a {
   color: black;
 }
 ul a li {
+  display: flex;
+  justify-content: space-around;
   list-style: none;
+}
+ul a li li {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=style.css.map */
