@@ -16146,11 +16146,35 @@ ul a li {
   display: flex;
   justify-content: space-around;
   list-style: none;
+  color: black;
 }
-ul a li li {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
+
+.noir {
+  background-color: black;
+  height: 10px;
+  width: 10px;
+}
+
+.blanc {
+  background-color: white;
+  height: 10px;
+  width: 10px;
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+}
+
+.cacher {
+  visibility: hidden;
+}
+
+body {
+  font-family: "poppins";
 }
 
 /*# sourceMappingURL=style.css.map */

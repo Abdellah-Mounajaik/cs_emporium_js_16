@@ -9,37 +9,38 @@
 </head>
 
 <body>
-    <header>
-        <div class="text-center mt-5">
-            <h1>Emporium.</h1>
+    <header class="header">
+        <div class="mt-5">
+            <h1 class="cacher invisible">Emporium.</h1>
+            <h1 class="text-center">Emporium.</h1>
         </div>
         <nav class="mt-5">
-            <ul>
-                <a href="">
+            <ul class="d-none d-lg-flex">
+                <a class="li" href="">
                     <li>HOME</li>
                 </a>
-                <a href="">
+                <a class="li" href="">
                     <li>PRODUCT</li>
                 </a>
-                <a href="">
+                <a class="li" href="">
                     <li>BLOG</li>
                 </a>
-                <a href="">
+                <a class="li" href="">
                     <li>ELEMENTS</li>
                 </a>
-                <a href="">
+                <a class="li" href="">
                     <li>ABOUT</li>
                 </a>
-                <a href="">
+                <a class="li" href="">
                     <li>CONTACT</li>
                 </a>
 
-                <a href="">
+                <a class="li" id="conn" href="">
                     <li>CONNEXION</li>
                 </a>
                 <div>
-                    <button class="mb-5" style="height: 10px; width: 10px; background-color: black;"></button>
-                    <button class="mb-5" style="height: 10px; width: 10px; background-color: white;"></button>
+                    <button class="blanc mb-5"></button>
+                    <button class="noir mb-5"></button>
                 </div>
 
             </ul>
@@ -49,15 +50,15 @@
         <div class="container">
             <div>
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-12 col-md-8">
                         <h1 class="t1 mt-5">Shop at</h1>
                         <h1 class="t2">Emporium.</h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt reprehenderit porro adipisci
+                        <p class="t1p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt reprehenderit porro adipisci
                             ex
                             mollitia nam.</p>
                         <button type="button" class="btn btn-danger rounded-pill px-4 py-2">Sale Items</button>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-md-4">
                         <img class="slider" src="./public/img/slider-1.jpg" alt="">
                     </div>
 
@@ -66,17 +67,17 @@
         </div>
     </section>
     <section>
-        <div class="container mt-5 mb-5">
+        <div class="container-fluid mt-5 mb-5">
             <div class="row">
-                <div class=" col-4">
+                <div class="col-12 col-lg-4">
                     <img class="s2img position-absoluted" src="./public/img/services/service-1.jpg" alt="">
                     <p class="t-img">Living Room</p>
                 </div>
-                <div class=" col-4">
+                <div class="col-12 col-lg-4">
                     <img class="s2img" src="./public/img/services/service-2.jpg" alt="">
                     <p class="t-img">Sale Items</p>
                 </div>
-                <div class=" col-4">
+                <div class="col-12 col-lg-4">
                     <img class="s2img" src="./public/img/services/slider-3.jpg" alt="">
                     <p class="t-img">Clothes</p>
                 </div>
@@ -89,12 +90,12 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <img class="s3img" src="./public/img/products_mini/product-luxry-sofa.jpg" alt="">
                     <p class="text-center mt-4">Luxury Sofa</p>
                     <p class="text-center text-danger">$300</p>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <img class="s3img" src="./public/img/products_mini/product-gloves.jpg" alt="">
                     <div class="row">
                         <div class="col-5">
@@ -106,7 +107,7 @@
                         </div>
                     </div>
                 </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <img class="s3img" src="./public/img/products_mini/product-cups.jpg" alt="">
                 <p class="text-center mt-4">Colortufl Bowl</p>
                 <p class="text-center text-danger">$118</p>
@@ -115,24 +116,24 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <img class="s3img" src="./public/img/products/product-bag-700x500.jpg" alt="">
                     <div class="row">
                         <div class="col-5">
-                            <p class="rounded-circle text-center ml-5 p-3 bg-danger mt-4">Sale</p>
+                            <p class="rounded-circle text-center ml-5 p-3 bg-danger mt-5">Sale</p>
                         </div>
                         <div class="col-7">
-                            <p class="mt-4 text-center">Leather Gloves</p>
+                            <p class="mt-5 text-center">Leather Gloves</p>
                             <p class="text-center text-danger"><del class="text-dark">$700</del> 500$</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <img class="s3img" src="./public/img/products_mini/product-tshitr.jpg" alt="">
                     <p class="text-center mt-4">Minimal-t-shirt</p>
                     <p class="text-center text-danger">$118</p>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <img class="s3img" src="./public/img/products_mini/product-plates.jpg" alt="">
                     <p class="text-center mt-4">Plates Sates</p>
                     <p class="text-center text-danger">$30</p>
@@ -141,17 +142,17 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <img class="s3img" src="./public/img/products_mini/product-modern-sofa.jpg" alt="">
                     <p class="text-center mt-4">Modern Sofa</p>
                     <p class="text-center text-danger">$900</p>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <img class="s3img" src="./public/img/products_mini/product-bed.jpg" alt="">
                     <p class="text-center mt-4">Bed Linen</p>
                     <p class="text-danger text-center">$79</p>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <img class="s3img" src="./public/img/products_mini/product-shoes.jpg" alt="">
                     <p class="text-center mt-4">Minimal Shoes</p>
                     <p class="text-center text-danger">$60</p>
@@ -176,12 +177,12 @@
             <h1>Hot Fashian Products</h1>
         </div>
         <div class="caroussel container">
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
                 <img class="imgcar" src="./public/img/products_mini/product-modern-sofa.jpg" alt="">
-                <p class="text-center">Luxury Sofia</p>
+                <p class="text-center mt-4">Luxury Sofia</p>
                 <p class="text-center text-danger">$500</p>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
                 <img class="imgcar" src="./public/img/products_mini/product-gloves.jpg" alt="">
                 <div class="row">
                     <div class="col-5">
@@ -193,29 +194,29 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
                 <img class="imgcar" src="./public/img/products_mini/product-cups.jpg" alt="">
                 <p class="text-center mt-4">Colortufl Bowl</p>
                 <p class="text-center text-danger">$118</p>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
                 <img class="imgcar" src="./public/img/products/product-bag-700x500.jpg" alt="">
                 <div class="row">
-                    <div class="col-5">
+                    <div class="col-5 mt-3">
                         <p class="rounded-circle text-center ml-1 py-2 bg-danger mt-4">Sale</p>
                     </div>
-                    <div class="col-7">
+                    <div class="col-7 mt-3">
                         <p class="mt-4 text-center">Leather Gloves</p>
                         <p class="text-center text-danger"><del class="text-dark">$700</del> 500$</p>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
                 <img class="imgcar" src="./public/img/products/product-jacket-700x500.jpg" alt="">
                 <p class="text-center mt-4">Colortufl Bowl</p>
                 <p class="text-center text-danger">$118</p>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-lg-3">
                 <img class="imgcar" src="./public/img/products/product-tshitr-700x500.jpg" alt="">
                 <p class="text-center mt-4">Colortufl Bowl</p>
                 <p class="text-center text-danger">$118</p>
@@ -225,21 +226,21 @@
     <section class="mt-5 ">
         <div class="container">
             <div class="row">
-                <div class="fond col-4 text-center">
+                <div class="fond col-12 col-lg-4 text-center">
                     <i class="fas fa-vote-yea mt-4 mb-4"></i>
                     <p>Lorem ipsum dolor sit amet consectetur.</p>
                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate in rem illum illo
                         quod quidem vel ipsum iste dicta libero!</p>
                     <button type="button" class="btn btn-dark mb-4">Learn More</button>
                 </div>
-                <div class="fond col-4 text-center ">
+                <div class="fond col-12 col-lg-4 text-center ">
                     <i class="far fa-paper-plane mt-4 mb-4"></i>
                     <p>Lorem ipsum dolor sit amet consectetur.</p>
                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate in rem illum illo
                         quod quidem vel ipsum iste dicta libero!</p>
                     <button type="button" class="btn btn-dark mb-4">Learn More</button>
                 </div>
-                <div class="fond col-4 text-center">
+                <div class="fond col-12 col-lg-4 text-center">
                     <i class="fas fa-vote-yea mt-4 mb-4"></i>
                     <p>Lorem ipsum dolor sit amet consectetur.</p>
                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate in rem illum illo
@@ -252,20 +253,20 @@
     <footer class="mt-5 bg-dark">
         <div class="container pb-4">
             <div class="row">
-                <div class="col-4 mt-5 pb-3">
+                <div class="col-12 col-lg-4 mt-5 pb-3">
                     <h4 class="text-white mb-3">About Us</h4>
                     <p class="text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
                         deleniti dignissimos fugit blanditiis est, dolore nemo in explicabo unde quo eligendi, magni
                         cupiditate doloribus iste!</p>
                 </div>
-                <div class="col-4 mt-5 text-white">
+                <div class="col-12 col-lg-4 mt-5 text-white">
                     <h4 class="mb-3">Recents Post</h4>
                     <p>> Lorem ipsum dolor sit.</p>
                     <p>> Lorem ipsum dolor sit.</p>
                     <p>> Lorem ipsum dolor sit.</p>
                     <p>> Lorem ipsum dolor sit.</p>
                 </div>
-                <div class="col-4 mt-5">
+                <div class="col-12 col-lg-4 mt-5">
                     <h4 class="text-white mb-3">Tag Cloud</h4>
                     <span class="badge badge-secondary">Secondary</span>
                     <span class="badge badge-secondary">Secondary</span>
