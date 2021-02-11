@@ -16,7 +16,7 @@ let t1p = document.querySelector('.t1p')
 
 noir.addEventListener('click',()=>{
     body.style.backgroundColor = 'black'
-    body.style.color = "black"
+    body.style.color = "white"
     li.style.color = "black"
     li2.style.color = "black"
     li3.style.color = "black"
@@ -43,25 +43,40 @@ blanc.addEventListener('click',()=>{
 })
 
 let header = document.querySelector('.header')
-let h1 = document.querySelectorAll('h1')[1]
+let h1 = document.querySelectorAll('h1')[0]
 let vis = document.querySelector('.cacher')
 window.addEventListener("scroll",()=>{
     if (window.scrollY > 100) {
-        vis.className = ("invisible","visible")
+        h1.className = ("visible, invisible")
     } else {
         
     }
     if (window.scrollY > 100) {
-        h1.className = ("visible","invisible")
+        h1.className = ("d-flex","d-none, float-left mb-5")
     }
 })
 
 let connexion = document.querySelector("#connexion")
+let modal = document.querySelector('#modal')
+modal.style.display = "none"
+connexion.addEventListener('click', ()=>{
+    modal.style.display = "flex"
+})
+let inscrire = document.querySelector(".inscrire")
+let modal2 = document.querySelector('#modal2')
+modal2.style.display = "none"
+inscrire.addEventListener('click',()=> {
+    modal2.style.display = "flex"
+})
 
-connexion.addEventListener('')
 
+let fermer = document.querySelectorAll(".close")[0]
+let fermer2 = document.querySelectorAll('.close')[1]
+fermer.addEventListener('click',()=>{
+    modal.style.display = "none"
+})
+fermer2.addEventListener('click',()=>{
+    modal2.style.display = "none"
 
+})
 
-
-
-    
