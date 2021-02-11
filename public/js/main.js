@@ -45,22 +45,30 @@ blanc.addEventListener('click',()=>{
 let header = document.querySelector('.header')
 let h1 = document.querySelectorAll('h1')[0]
 let vis = document.querySelector('.cacher')
+let nav = document.querySelectorAll('a')
 window.addEventListener("scroll",()=>{
     if (window.scrollY > 100) {
-        h1.className = ("visible, invisible")
-    } else {
-        
+        h1.className = ("d-flex, d-none")
+        vis.className = ('d-none, d-flex')
     }
-    if (window.scrollY > 100) {
-        h1.className = ("d-flex","d-none, float-left mb-5")
+    else if (window.scrollY < 100) {
+        // h1.className = ("d-flex, d-none, float-left mb-5")
+        ah.forEach(el => {
+            el.className = ("mt-3")
+        });
+    
+        // blanc.classList.add = ("mt-5")
+        // noir.classList.add = ("mt-5")
     }
 })
-
+let ah = Array.from(document.querySelectorAll('a'))
 let connexion = document.querySelector("#connexion")
 let modal = document.querySelector('#modal')
 modal.style.display = "none"
 connexion.addEventListener('click', ()=>{
     modal.style.display = "flex"
+    body.style.overflow = "hidden"
+    
 })
 let inscrire = document.querySelector(".inscrire")
 let modal2 = document.querySelector('#modal2')
@@ -74,9 +82,11 @@ let fermer = document.querySelectorAll(".close")[0]
 let fermer2 = document.querySelectorAll('.close')[1]
 fermer.addEventListener('click',()=>{
     modal.style.display = "none"
+    body.style.overflow = "auto"
 })
 fermer2.addEventListener('click',()=>{
     modal2.style.display = "none"
-
+    modal.style.display = "none"
+    body.style.overflow = "auto"
 })
 

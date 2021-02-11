@@ -16132,6 +16132,18 @@ h3 {
   background-color: black;
 }
 
+.divmil {
+  z-index: 50;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-left: 100px;
+  padding-right: 150px;
+}
+
+.close {
+  right: 0%;
+}
+
 ul {
   display: flex;
   justify-content: space-around;
@@ -16167,18 +16179,6 @@ ul a li {
   top: 0;
   z-index: 2;
   background-color: white;
-}
-
-.divmil {
-  z-index: 50;
-  margin-left: 30%;
-  margin-right: 30%;
-  padding-left: 100px;
-  padding-right: 150px;
-}
-
-.close {
-  right: 0%;
 }
 
 body {
