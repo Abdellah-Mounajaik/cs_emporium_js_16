@@ -46,21 +46,24 @@ let header = document.querySelector('.header')
 let h1 = document.querySelectorAll('h1')[0]
 let vis = document.querySelector('.cacher')
 let nav = document.querySelectorAll('a')
+
 window.addEventListener("scroll",()=>{
     if (window.scrollY > 100) {
-        h1.className = ("d-flex, d-none")
-        vis.className = ('d-none, d-flex')
-    }
+        h1.className= ("text-center", "d-none")
+        vis.className= ("cacher d-none float-left", "cacher d-flex")
+    } 
     else if (window.scrollY < 100) {
-        // h1.className = ("d-flex, d-none, float-left mb-5")
+        h1.className = ("d-none", " text-center")
+        vis.className = ("cacher d-flex float-left", "cacher d-none float-left pt-5")
         ah.forEach(el => {
             el.className = ("mt-3")
         });
-    
         // blanc.classList.add = ("mt-5")
         // noir.classList.add = ("mt-5")
     }
 })
+
+
 let ah = Array.from(document.querySelectorAll('a'))
 let connexion = document.querySelector("#connexion")
 let modal = document.querySelector('#modal')
